@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Mostrador from "./components/Mostrador";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Mostrador countLog={1}/>
+      <Mostrador countLog={2}/>
+      <Mostrador countLog={3}/>
+      <Mostrador countLog={4}/>
+      <Mostrador countLog={5}/>
+      <Mostrador countLog={6}/>
+      <Mostrador countLog={7}/>
+      <Mostrador countLog={8}/>
+      <Mostrador countLog={9}/>
+      <Mostrador countLog={10}/>
+     
     </div>
   );
 }
